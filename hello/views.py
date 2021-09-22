@@ -8,7 +8,7 @@ from .models import Greeting
 @xframe_options_exempt
 def index(request):
     # return HttpResponse('Hello from Python!')
-    time.sleep(1)
+    time.sleep(3)
     return render(request, "index.html")
 
 
